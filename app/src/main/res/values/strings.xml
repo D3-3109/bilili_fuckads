@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">去除b站开屏广告</string>
+    <string name="app_name">去除B站开屏广告（Modern）</string>
+    <string name="module_description">屏蔽哔哩哔哩商业开屏，覆盖旧版与新版开屏广告路径；libxposed 101+。</string>
 
 </resources>

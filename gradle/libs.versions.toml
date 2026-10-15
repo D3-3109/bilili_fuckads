@@ -1,6 +1,6 @@
 [versions]
-agp = "8.7.0-alpha03"
-api = "82"
+agp = "9.0.1"
+api = "102.0.0"
 dexkit = "2.0.6"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -10,7 +10,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 
 [libraries]
-api = { module = "de.robv.android.xposed:api", version.ref = "api" }
+api = { module = "io.github.libxposed:api", version.ref = "api" }
 dexkit = { module = "org.luckypray:dexkit", version.ref = "dexkit" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

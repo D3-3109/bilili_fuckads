@@ -1,24 +1,23 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
 }
 
 android {
     namespace 'me.bingyue.fuckbiliads'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
-        applicationId "me.bingyue.fuckbiliads"
+        applicationId "me.bingyue.fuckbiliads.modern"
         minSdk 27
-        targetSdk 34
-        versionCode 9
-        versionName "4.3"
+        targetSdk 35
+        versionCode 10
+        versionName "4.4-modern102"
 
     }
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -26,8 +25,8 @@ android {
 
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 
