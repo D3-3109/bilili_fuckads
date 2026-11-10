@@ -45,7 +45,7 @@ jobs:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-        run: ./gradlew :app:assembleRelease --no-daemon --console=plain
+        run: bash gradlew :app:assembleRelease --no-daemon --console=plain
 
       - name: Rename and verify APK
         run: |
