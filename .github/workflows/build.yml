@@ -24,9 +24,7 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v4
         with:
-          packages: |
-            platforms;android-35
-            build-tools;36.0.0
+          packages: 'platforms;android-35,build-tools;36.0.0'
 
       - name: Decode keystore
         env:
